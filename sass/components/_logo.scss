@@ -1,0 +1,39 @@
+.logo {
+    
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+
+}
+
+// .page-header__logo {
+//     margin-right: 93px;
+// }
+
+.logo_dark {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.logo_light {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+}
