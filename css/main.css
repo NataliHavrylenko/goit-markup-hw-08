@@ -109,6 +109,10 @@ body {
   }
 }
 .page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.page-header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -236,6 +240,10 @@ body {
     margin-bottom: 0;
   }
 }
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
@@ -378,7 +386,7 @@ body {
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero/bg-mobile.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg-mobile.jpg");
     background-size: cover;
     margin: 0 auto;
     background-position: center;
@@ -748,7 +756,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  row-gap: 15px;
 }
 
 .filter__button {
@@ -788,6 +797,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1042,10 +1052,6 @@ body {
 }
 .project__link:hover, .project__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.project-card-list-img {
-  display: block;
 }
 
 .project__meta {
