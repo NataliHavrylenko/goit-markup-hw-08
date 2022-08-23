@@ -70,6 +70,16 @@
     }
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 30px;
+}
+
 // @media screen and (min-width: 480px) {}
 @media screen and (min-width: 768px){
     .employees__cards {
@@ -105,6 +115,11 @@
     .employees__card-item:not(:last-child) {
     margin-bottom: 0;
     }
+
+    .section-title {
+    margin-bottom: 50px;
+    }
+
 }
 
 

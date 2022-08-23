@@ -1,7 +1,9 @@
 // @media screen and (min-width: 480px) {}
 // @media screen and (min-width: 768px) {}
 // @media screen and (min-width: 1200px) {}
-
+.project__item:not(:last-child){
+    margin-bottom: 30px;
+}
 
 .project__link:hover .project__overlay,
 .project__link:focus .project__overlay {

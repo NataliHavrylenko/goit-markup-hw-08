@@ -558,16 +558,6 @@ body {
     display: none;
   }
 }
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  margin-bottom: 50px;
-}
-
 .work__cards {
   display: flex;
   justify-content: space-between;
@@ -664,6 +654,16 @@ body {
   fill: var(--primary-white-color);
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .employees__cards {
     display: flex;
@@ -689,6 +689,9 @@ body {
   }
   .employees__card-item:not(:last-child) {
     margin-bottom: 0;
+  }
+  .section-title {
+    margin-bottom: 50px;
   }
 }
 .clients__list {
@@ -1022,6 +1025,10 @@ body {
     line-height: 1.71;
   }
 }
+.project__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .project__link:hover .project__overlay,
 .project__link:focus .project__overlay {
   transform: translate(0, 0);
@@ -1117,7 +1124,7 @@ body {
   margin-bottom: 60px;
 }
 
-.footer__contact-item {
+.footer__contact-item:not(:last-child) {
   margin-bottom: 8px;
 }
 
