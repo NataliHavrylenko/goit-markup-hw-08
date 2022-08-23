@@ -13,7 +13,10 @@
     background-color: transparent;
     padding: 0;
 }
-}
+}   .page-header {
+       border-bottom: 1px solid #ECECEC;
+   }
+
 
 .page-header {
     padding-top: 10px;
@@ -179,9 +182,9 @@
 
 
 
-    // .page-header {
-    //     border-bottom: 1px solid #ECECEC;
-    // }
+    .page-header {
+        border-bottom: 1px solid #ECECEC;
+    }
 
     // .page-header-container {
     //     display: flex;

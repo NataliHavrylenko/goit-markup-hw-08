@@ -2,7 +2,8 @@
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+        row-gap: 15px;
     }
 
     .filter__button {
@@ -44,6 +45,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 30px;
         } 
     }
 

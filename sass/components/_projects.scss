@@ -1,6 +1,3 @@
-// @media screen and (min-width: 480px) {}
-// @media screen and (min-width: 768px) {}
-// @media screen and (min-width: 1200px) {}
 .project__item:not(:last-child){
     margin-bottom: 30px;
 }
@@ -22,9 +19,6 @@
     }
 }
 
-.project-card-list-img {
-    display: block;
-}
 
 .project__meta {
     flex-grow: 1;
@@ -93,6 +87,11 @@
     .project__item {
     flex-basis: calc((100% - 60px)/3);
     }
+
+    .project__meta {
+    flex-grow: 0;}
+
+
 
 
 }
