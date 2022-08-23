@@ -63,14 +63,7 @@
             }
         }
     
-    .header-contact {
-        display: flex;
-        flex-direction: column;
-
-        padding-top: 21px;
-        padding-bottom: 21px;
-        margin-left: 96px;
-        }
+    
     
     
     .contact-mail,
@@ -127,14 +120,28 @@
 
 } 
 
+@media screen and (min-width: 768px) and (max-width: 1199px){
+        .header-contact {
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 21px;
+        padding-bottom: 21px;
+        margin-left: 96px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .page-header {
-        // padding-top: 32px;
-        // padding-bottom: 32px;
-        width: 100%;
-        
+        width: 100%;}
 
-    }
+    .header-contact {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-left: 96px;
+       
+        }
+
     .page-header-container {
         display: flex;
         align-items: center;

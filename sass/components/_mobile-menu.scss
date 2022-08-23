@@ -25,10 +25,12 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 48px;
         padding-bottom: 48px;
+        height: 100%;
     }
 
     .mobile-menu__close-btn {
@@ -59,6 +61,8 @@
         letter-spacing: 0.02em;
         color: #212121;
     }
+    .current {
+    color: var(--accent-color);}
 
     .mobile-menu__list-item:not(:last-child){
         margin-bottom: 32px;
@@ -105,7 +109,10 @@
         color: #2196F3;
     }
 
+
+
 }
+
 
 
 @media screen and (min-width: 768px) {

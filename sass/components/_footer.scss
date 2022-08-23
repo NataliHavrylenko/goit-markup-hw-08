@@ -4,8 +4,6 @@
     background-color: #2F303A;
 }
 
-
-
 .footer__box {
     text-align: center;
     margin-bottom: 60px;
@@ -156,13 +154,70 @@
         border-radius: 4px;
     }
 }
-@media screen and (min-width: 480px) {}
+// @media screen and (min-width: 480px) {}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .footer__top-container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+        }
 
-@media screen and (min-width: 1200px) {}
+    .signup__input {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 50px; }
 
+        .signup__form-wrapper{
+            text-align: center;
+        }
+}
+@media screen and (min-width: 1200px) {
 
+    .footer {
+        display: flex;
+    }
+
+    .footer__container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+
+    .footer__top-container{
+        display: flex;
+        align-items: baseline;
+    }
+    .footer__box {
+    margin-right: 70px;
+    margin-bottom: 0;
+    text-align: left;
+    }
+
+    .footer-social {
+    display: block;
+    margin-right: 93px;
+    margin-bottom: 0;
+    }
+
+    .footer-social__title{
+    text-align: left;
+    }
+
+    .signup__form-wrapper {
+    display: flex;
+    }
+
+    .signup__title {
+    text-align: left;
+    }
+
+    .signup__input {
+    width: 358px;
+    height: 50px;
+    }
+}
 
 
 // .footer {

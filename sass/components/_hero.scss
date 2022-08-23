@@ -15,7 +15,7 @@
         margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
-        width: 360px;
+        
         
         font-weight: 900;
         font-size: 26px;
@@ -50,6 +50,10 @@
             }
         }
 
+}
+@media screen and (min-width: 480px) {
+    .hero-container .main-title {
+    width: 360px;}
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
