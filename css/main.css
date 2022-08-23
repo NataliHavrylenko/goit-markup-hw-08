@@ -1033,10 +1033,6 @@ body {
     line-height: 1.71;
   }
 }
-.project__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .project__link:hover .project__overlay,
 .project__link:focus .project__overlay {
   transform: translate(0, 0);
@@ -1102,6 +1098,11 @@ body {
   color: var(--primary-white-color);
 }
 
+@media screen and (max-width: 767px) {
+  .project__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-width: 768px) {
   .project {
     display: flex;
