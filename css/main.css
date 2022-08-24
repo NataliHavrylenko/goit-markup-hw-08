@@ -201,7 +201,7 @@ body {
     flex-direction: column;
     padding-top: 21px;
     padding-bottom: 21px;
-    margin-left: 96px;
+    margin-left: 90px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -221,6 +221,9 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: auto;
+  }
+  .header-contact__item:not(:last-child) {
+    margin-right: 50px;
   }
   .page-header__logo {
     margin-right: 93px;
