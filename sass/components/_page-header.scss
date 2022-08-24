@@ -144,7 +144,6 @@
     .page-header-container {
         display: flex;
         align-items: center;
-
         }
 
     .header-contact {
@@ -164,20 +163,5 @@
         display: block;
         
     }
-    .contact-mail,
-    .contact-phone-number {
-            display: flex;
-            align-items: center;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.02em;
-            color: var(--secondary-text-color);
-            margin-bottom: 0;
-
-        }
-
 }
-    .page-header {
-        border-bottom: 1px solid #ECECEC;
-    }
+

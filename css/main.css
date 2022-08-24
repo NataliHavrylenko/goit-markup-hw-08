@@ -231,22 +231,7 @@ body {
   .menu-link {
     display: block;
   }
-  .contact-mail,
-.contact-phone-number {
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-    margin-bottom: 0;
-  }
 }
-.page-header {
-  border-bottom: 1px solid #ECECEC;
-}
-
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
@@ -537,29 +522,8 @@ body {
   .about__card-item:not(:last-child) {
     margin-right: 30px;
   }
-  .thumb {
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .about__card-title {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.42;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
     text-align: left;
-  }
-  .about__card-descr {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
   }
 }
 @media screen and (max-width: 1199px) {
