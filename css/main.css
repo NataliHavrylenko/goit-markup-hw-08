@@ -448,19 +448,7 @@ body {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg@2x.jpg");
   }
 }
-.about {
-  padding-top: 60px;
-  padding-bottom: 0;
-}
-
-.about__cards {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about__card-item {
-  margin-left: auto;
-  margin-right: auto;
+.about__card-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -496,34 +484,30 @@ body {
   .about__cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
   .about__card-item {
-    width: calc((100% - 60px) / 2);
-    margin-right: 30px;
+    width: calc((100% - 30px) / 2);
   }
   .thumb {
     margin-bottom: 30px;
   }
-}
-@media screen and (min-width: 1200px) {
-  .about {
-    padding-top: 94px;
-    padding-bottom: 0;
-  }
-  .about__cards {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 0;
-  }
-  .about__card-item {
-    width: 270px;
-    margin-left: 0;
-  }
   .about__card-item:not(:last-child) {
-    margin-right: 30px;
+    margin-bottom: 0;
   }
   .about__card-title {
     text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .about__card-item {
+    flex-basis: calc((100% - 90px) / 4);
+    margin: 0;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -531,6 +515,10 @@ body {
     display: none;
   }
 }
+.work {
+  padding-top: 0;
+}
+
 .work__cards {
   display: flex;
   justify-content: space-between;
@@ -644,7 +632,7 @@ body {
     gap: 30px;
   }
   .employees__card-item {
-    flex-basis: calc((100% - 60px) / 2);
+    flex-basis: calc((100% - 30px) / 2);
   }
   .employees__card-item:not(:last-child) {
     margin-bottom: 0;
@@ -1134,7 +1122,7 @@ body {
   color: var(--accent-color);
 }
 
-.footer-social {
+.footer__top-container {
   margin-bottom: 60px;
 }
 
@@ -1236,6 +1224,9 @@ body {
     align-items: baseline;
     justify-content: space-evenly;
   }
+  .footer__box {
+    margin: 0;
+  }
   .signup__input {
     margin-left: auto;
     margin-right: auto;
@@ -1253,7 +1244,7 @@ body {
   .footer__container {
     display: flex;
     align-items: baseline;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .footer__top-container {
     display: flex;
@@ -1266,7 +1257,6 @@ body {
   }
   .footer-social {
     display: block;
-    margin-right: 93px;
     margin-bottom: 0;
   }
   .footer-social__title {
