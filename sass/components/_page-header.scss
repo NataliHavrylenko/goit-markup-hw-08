@@ -128,8 +128,8 @@
 @media screen and (min-width: 1200px) {
     .page-header {
     width: 100%;
-    padding-top: 32px;
-    padding-bottom: 32px;}
+
+    }
 
     .page-header-container {
         display: flex;
@@ -145,6 +145,12 @@
     .header-contact__item:not(:last-child) {
     margin-right: 50px;
     }
+
+    .header-contact__item{
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+    }
     .page-header__logo {
      margin-right: 93px;
     }
@@ -158,9 +164,6 @@
         margin: 0;
     }
 
-    .menu__link_current::after {
-         content: "";
-         bottom: -7.5px;
 }
-}
+
 
