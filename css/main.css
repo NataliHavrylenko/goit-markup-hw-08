@@ -161,10 +161,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     padding: 0;
-    margin-bottom: 10px;
-  }
-  .contact-phone-number {
-    margin-bottom: 0;
   }
   .contact-mail:hover,
 .contact-mail:focus,
@@ -199,6 +195,7 @@ body {
   .header-contact {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     padding-top: 21px;
     padding-bottom: 21px;
     margin-left: 90px;
@@ -207,11 +204,8 @@ body {
 @media screen and (min-width: 1200px) {
   .page-header {
     width: 100%;
-  }
-  .header-contact {
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-left: 96px;
   }
   .page-header-container {
     display: flex;
@@ -230,6 +224,14 @@ body {
   }
   .menu-link {
     display: block;
+  }
+  .contact-mail,
+.contact-phone-number {
+    margin: 0;
+  }
+  .menu__link_current::after {
+    content: "";
+    bottom: -7.5px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -441,6 +443,11 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg.jpg");
+  }
+  .hero-container .main-title {
+    min-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
@@ -1249,6 +1256,7 @@ body {
   .footer__top-container {
     display: flex;
     align-items: baseline;
+    margin: 0;
   }
   .footer__box {
     margin-right: 70px;

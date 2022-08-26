@@ -25,7 +25,6 @@
 .page-header-container {
     display: flex;
     align-items: center;
-
 }
 
 @media screen and (min-width: 768px){
@@ -76,12 +75,7 @@
         color: var(--secondary-text-color);
         padding: 0;
     
-        margin-bottom: 10px;
-    
         }
-    .contact-phone-number {
-        margin-bottom: 0;
-    }
     
     .contact-mail:hover,
     .contact-mail:focus,
@@ -123,6 +117,7 @@
         .header-contact {
         display: flex;
         flex-direction: column;
+        gap: 10px;
 
         padding-top: 21px;
         padding-bottom: 21px;
@@ -132,14 +127,9 @@
 
 @media screen and (min-width: 1200px) {
     .page-header {
-        width: 100%;}
-
-    .header-contact {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        margin-left: 96px;
-       
-        }
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;}
 
     .page-header-container {
         display: flex;
@@ -163,5 +153,14 @@
         display: block;
         
     }
+    .contact-mail,
+    .contact-phone-number{
+        margin: 0;
+    }
+
+    .menu__link_current::after {
+         content: "";
+         bottom: -7.5px;
+}
 }
 
